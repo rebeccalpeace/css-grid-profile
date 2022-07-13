@@ -35,7 +35,16 @@ h1 {
   
 .prof-pic {
     grid-area: prof-pic; 
-    background-color: yellow;
+}
+
+#profile-pic {
+  width: 100%;
+  height: auto;
+}
+
+.prof-pic {
+  display: flex;
+  align-items: center;
 }
   
 .prof-info { 

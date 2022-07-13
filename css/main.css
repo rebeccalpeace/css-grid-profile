@@ -1,4 +1,6 @@
-
+body {
+  background-color: yellow;
+}
 
 .container {  
     height: 100vh;
@@ -71,6 +73,7 @@
   border: 1px solid black;
   padding: 1vh;
   margin: 10px 0;
+  background-color: white;
 }
 
 .card-title {

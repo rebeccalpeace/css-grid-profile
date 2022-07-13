@@ -6,7 +6,7 @@ h1 {
     height: 100vh;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 10% 2fr 3fr;
+    grid-template-rows: 10vh 2fr 3fr;
     gap: 0px 0px;
     grid-auto-flow: row;
     grid-template-areas:
@@ -35,3 +35,6 @@ h1 {
     background-color: pink;
 }
   
+.container > div {
+    border: 2px solid black
+}

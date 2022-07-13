@@ -15,22 +15,35 @@ h1 {
       ". posts posts posts posts .";
   }
   
-  .navbar { 
+.navbar { 
     grid-area: navbar; 
     background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 90vh;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
 }
   
-  .prof-pic {
+.prof-pic {
     grid-area: prof-pic; 
     background-color: yellow;
 }
   
-  .prof-info { 
+.prof-info { 
     grid-area: prof-info; 
     background-color: blue;
 }
   
-  .posts { 
+.posts { 
     grid-area: posts; 
     background-color: pink;
 }

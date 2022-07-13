@@ -1,6 +1,4 @@
-h1 {
-    color: red;
-}
+
 
 .container {  
     height: 100vh;
@@ -49,7 +47,15 @@ h1 {
   
 .prof-info { 
     grid-area: prof-info; 
-    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 0 5vw;
+}
+
+.prof-info h1 {
+  align-self: center;
 }
   
 .posts { 

@@ -30,6 +30,11 @@
   color: white;
   text-decoration: none;
 }
+
+.navbar a:hover {
+  color: yellow;
+  text-decoration: none;
+}
   
 .prof-pic {
     grid-area: prof-pic; 
@@ -60,9 +65,30 @@
   
 .posts { 
     grid-area: posts; 
-    background-color: pink;
 }
-  
-.container > div {
-    border: 2px solid black
+
+.post-card {
+  border: 1px solid black;
+  padding: 1vh;
 }
+
+.card-title {
+  margin: 10px 0;
+}
+
+.card-links {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card-links a {
+  text-decoration: none;
+  color: black;
+}
+
+.card-links a:hover {
+  text-decoration: underline;
+  background-color: yellow;
+  color: black;
+}
+
